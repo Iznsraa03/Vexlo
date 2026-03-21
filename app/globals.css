@@ -128,3 +128,14 @@
     @apply font-sans;
   }
 }
+
+/* Volcano Dark — hide scrollbar for horizontal game scroll */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
