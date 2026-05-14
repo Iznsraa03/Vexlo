@@ -6,7 +6,7 @@ import STORES from "@/data/stores.json";
 export default function StoreShowcase() {
   return (
     <section
-      id="catalog"
+      id="stores"
       className="h-screen snap-start flex flex-col items-center justify-center px-6 md:px-12"
     >
       <div className="w-full max-w-4xl mx-auto text-center">
@@ -31,7 +31,7 @@ export default function StoreShowcase() {
         </AnimatedContent>
 
         {/* Store Cards Grid */}
-        <div className="flex flex-row items-start justify-center gap-10 md:gap-20">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20">
           {STORES.map((store, i) => (
             <StoreCard key={store.id} store={store} delay={i * 0.15} />
           ))}

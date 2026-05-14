@@ -6,7 +6,7 @@ import StaggeredMenu from "@/components/atoms/StaggeredMenu";
 
 const MENU_ITEMS = [
   { label: "Home", ariaLabel: "Go to home page", link: "#home" },
-  { label: "Catalog", ariaLabel: "Browse game catalog", link: "#catalog" },
+  { label: "Stores", ariaLabel: "Browse game catalog", link: "#stores" },
   { label: "Features", ariaLabel: "View features", link: "#features" },
   { label: "Contact", ariaLabel: "Get in touch", link: "#contact" },
 ];

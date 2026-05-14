@@ -74,32 +74,6 @@ export default function HeroSection() {
         </p>
       </AnimatedContent>
 
-      {/* Primary CTA */}
-      <AnimatedContent
-        distance={20}
-        direction="vertical"
-        reverse={true}
-        duration={0.6}
-        delay={0.55}
-        animateOpacity
-        initialOpacity={0}
-      >
-        <a
-          href="https://your-catalog-url.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          id="catalog"
-          className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#FFA500] text-black font-black text-lg tracking-wide transition-all duration-300 hover:scale-105 active:scale-95"
-          style={{
-            boxShadow:
-              "0 0 25px rgba(255,165,0,0.4), 0 0 50px rgba(255,165,0,0.15)",
-          }}
-        >
-          Open Catalog
-          <ExternalLink className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-        </a>
-      </AnimatedContent>
-
       {/* Social proof */}
       <AnimatedContent
         distance={15}
