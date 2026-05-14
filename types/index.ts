@@ -19,3 +19,10 @@ export interface PaymentMethod {
   abbr: string;
   color: string;
 }
+
+export interface Store {
+  id: string;
+  name: string;
+  logo: string;
+  link: string;
+}

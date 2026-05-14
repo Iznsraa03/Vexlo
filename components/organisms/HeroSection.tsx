@@ -5,7 +5,7 @@ import AnimatedContent from "@/components/atoms/AnimatedContent";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden pt-20">
+    <section id="home" className="relative h-screen snap-start flex flex-col items-center justify-center text-center px-6 overflow-hidden pt-20">
       {/* Mesh noise overlay */}
       <div
         className="absolute inset-0 -z-10 opacity-[0.035]"
@@ -17,28 +17,12 @@ export default function HeroSection() {
       {/* Glowing orb */}
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-[#FF4D4D]/8 blur-[120px] -z-10 pointer-events-none" />
 
-      {/* Badge */}
-      <AnimatedContent
-        distance={30}
-        direction="vertical"
-        reverse={true}
-        duration={0.6}
-        delay={0.1}
-        animateOpacity
-        initialOpacity={0}
-      >
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full border border-[#FF4D4D]/30 bg-[#FF4D4D]/10 text-[#FF4D4D] text-xs font-bold tracking-widest uppercase">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#FF4D4D] animate-pulse" />
-          Digital Asset Marketplace
-        </div>
-      </AnimatedContent>
-
       {/* Headline */}
       <AnimatedContent
         distance={40}
         direction="vertical"
         reverse={true}
-        duration={0.7}
+        duration={2}
         delay={0.25}
         animateOpacity
         initialOpacity={0}
@@ -57,9 +41,9 @@ export default function HeroSection() {
           <TextType
             as="span"
             text={[
-              "Level Up Your Digital Assets",
-              "Top-Up in Under 60 Seconds",
-              "Built for Gamers. By Gamers.",
+              "TOPUP DAN BONGKAR TERMURAH DAN TERCEPAT",
+              "TERMURAH DAN TERCEPAT",
+              "BUAT KALIAN PARA GAMER",
             ]}
             typingSpeed={55}
             deletingSpeed={35}

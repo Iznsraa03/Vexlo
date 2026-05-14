@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/organisms/Navbar";
 import HeroSection from "@/components/organisms/HeroSection";
-import GameShowcase from "@/components/organisms/GameShowcase";
+import StoreShowcase from "@/components/organisms/StoreShowcase";
 import FeatureHighlights from "@/components/organisms/FeatureHighlights";
 import PaymentBar from "@/components/organisms/PaymentBar";
 import Footer from "@/components/organisms/Footer";
@@ -16,13 +16,15 @@ export default function LandingTemplate() {
           backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(18, 18, 18, 0.9)), url('/img/MH.webp')",
         }}
       />
-      <div className="relative z-10">
+      <div id="snap-main-container" className="relative z-10 h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
         <Navbar />
         <HeroSection />
-        <GameShowcase />
+        <StoreShowcase />
         <FeatureHighlights />
-        <PaymentBar />
-        <Footer />
+        <section id="contact" className="h-screen snap-start flex flex-col justify-end">
+          <PaymentBar />
+          <Footer />
+        </section>
       </div>
     </div>
   );

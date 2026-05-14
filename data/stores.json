@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tokyo",
+    "name": "Tokyo Store",
+    "logo": "/logo/tokyo.jpeg",
+    "link": "https://topuptokyo.org/?utm_medium=social&utm_source=heylink.me"
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin Store",
+    "logo": "/logo/berlin.jpeg",
+    "link": "https://topupberlin.org/?utm_medium=social&utm_source=heylink.me"
+  },
+  {
+    "id": "denver",
+    "name": "Denver Store",
+    "logo": "/logo/denver.jpeg",
+    "link": "https://topupdenver.org/?utm_medium=social&utm_source=heylink.me"
+  }
+]

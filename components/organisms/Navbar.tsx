@@ -5,7 +5,7 @@ import { Gamepad2 } from "lucide-react";
 import StaggeredMenu from "@/components/atoms/StaggeredMenu";
 
 const MENU_ITEMS = [
-  { label: "Home", ariaLabel: "Go to home page", link: "#" },
+  { label: "Home", ariaLabel: "Go to home page", link: "#home" },
   { label: "Catalog", ariaLabel: "Browse game catalog", link: "#catalog" },
   { label: "Features", ariaLabel: "View features", link: "#features" },
   { label: "Contact", ariaLabel: "Get in touch", link: "#contact" },

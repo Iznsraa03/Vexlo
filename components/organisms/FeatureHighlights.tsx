@@ -5,7 +5,7 @@ import FEATURES from "@/data/features.json";
 
 export default function FeatureHighlights() {
   return (
-    <section className="py-20 px-6 md:px-12">
+    <section id="features" className="h-screen snap-start py-20 px-6 md:px-12 flex flex-col justify-center">
       <div className="max-w-6xl mx-auto">
         <AnimatedContent
           distance={30}
