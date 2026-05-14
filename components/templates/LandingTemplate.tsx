@@ -13,7 +13,7 @@ export default function LandingTemplate() {
       <div
         className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat bg-[#121212]"
         style={{
-          backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(18, 18, 18, 0.9)), url('/img/moneyheist.webp')",
+          backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(18, 18, 18, 0.9)), url('/img/MH.webp')",
         }}
       />
       <div className="relative z-10">
