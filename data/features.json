@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "Zap",
+    "title": "Instant Delivery",
+    "desc": "Top-up processed in under 60 seconds. Zero waiting, maximum gaming."
+  },
+  {
+    "icon": "ShieldCheck",
+    "title": "Secure Payment",
+    "desc": "256-bit SSL encryption on every transaction. Your data stays yours."
+  },
+  {
+    "icon": "HeadphonesIcon",
+    "title": "24/7 Support",
+    "desc": "Live agents around the clock. We speak gamer so you don't have to explain."
+  }
+]

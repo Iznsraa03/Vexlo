@@ -1,0 +1,8 @@
+[
+  { "label": "QRIS", "abbr": "QR", "color": "#FF4D4D" },
+  { "label": "GoPay", "abbr": "GP", "color": "#00AED6" },
+  { "label": "OVO", "abbr": "OV", "color": "#4C3494" },
+  { "label": "DANA", "abbr": "DN", "color": "#118EEA" },
+  { "label": "ShopeePay", "abbr": "SP", "color": "#EE4D2D" },
+  { "label": "BCA", "abbr": "BC", "color": "#005DAA" }
+]

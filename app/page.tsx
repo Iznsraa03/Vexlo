@@ -1,5 +1,5 @@
-import VexloLanding from "@/components/VexloLanding";
+import LandingTemplate from "@/components/templates/LandingTemplate";
 
 export default function Home() {
-  return <VexloLanding />;
+  return <LandingTemplate />;
 }
