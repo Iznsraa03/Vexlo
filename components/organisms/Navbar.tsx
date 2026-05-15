@@ -6,8 +6,6 @@ import StaggeredMenu from "@/components/atoms/StaggeredMenu";
 
 const MENU_ITEMS = [
   { label: "Home", ariaLabel: "Go to home page", link: "#home" },
-  { label: "Stores", ariaLabel: "Browse game catalog", link: "#stores" },
-  { label: "Features", ariaLabel: "View features", link: "#features" },
   { label: "Contact", ariaLabel: "Get in touch", link: "#contact" },
 ];
 
@@ -24,7 +22,7 @@ export default function Navbar() {
       <div className="fixed top-0 left-0 z-50 flex items-center gap-2 px-6 py-5 md:px-12">
         <Gamepad2 className="w-6 h-6 text-[#FF4D4D]" />
         <span className="text-xl font-black tracking-widest text-white">
-          VEX<span className="text-[#FF4D4D]">LO</span>
+          Money<span className="text-[#FF4D4D]">Heist</span>
         </span>
       </div>
 

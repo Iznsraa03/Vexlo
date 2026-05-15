@@ -1,9 +1,6 @@
 import React from "react";
 import Navbar from "@/components/organisms/Navbar";
 import HeroSection from "@/components/organisms/HeroSection";
-import StoreShowcase from "@/components/organisms/StoreShowcase";
-import FeatureHighlights from "@/components/organisms/FeatureHighlights";
-import PaymentBar from "@/components/organisms/PaymentBar";
 import Footer from "@/components/organisms/Footer";
 
 export default function LandingTemplate() {
@@ -19,13 +16,11 @@ export default function LandingTemplate() {
       <div id="snap-main-container" className="relative z-10 h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
         <Navbar />
         <HeroSection />
-        <StoreShowcase />
-        <FeatureHighlights />
-        <section id="contact" className="h-screen snap-start flex flex-col justify-end">
-          <PaymentBar />
+        <section id="contact" className="snap-start flex flex-col justify-end min-h-max">
           <Footer />
         </section>
       </div>
     </div>
   );
 }
+

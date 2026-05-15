@@ -1,7 +1,7 @@
 import React from "react";
-import { ExternalLink } from "lucide-react";
-import TextType from "@/components/atoms/TextType";
 import AnimatedContent from "@/components/atoms/AnimatedContent";
+import StoreCard from "@/components/molecules/StoreCard";
+import STORES from "@/data/stores.json";
 
 export default function HeroSection() {
   return (
@@ -27,7 +27,7 @@ export default function HeroSection() {
         animateOpacity
         initialOpacity={0}
       >
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-6 max-w-4xl">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-tight mb-4 max-w-4xl">
           <span
             className="text-transparent bg-clip-text"
             style={{
@@ -35,26 +35,8 @@ export default function HeroSection() {
                 "linear-gradient(135deg, #ffffff 0%, #FF4D4D 50%, #FFA500 100%)",
             }}
           >
-            VEXLO:
+            Money Heist
           </span>
-          <br />
-          <TextType
-            as="span"
-            text={[
-              "TOPUP DAN BONGKAR TERMURAH DAN TERCEPAT",
-              "TERMURAH DAN TERCEPAT",
-              "BUAT KALIAN PARA GAMER",
-            ]}
-            typingSpeed={55}
-            deletingSpeed={35}
-            pauseDuration={1800}
-            showCursor
-            cursorCharacter="_"
-            cursorClassName="text-[#FFA500]"
-            cursorBlinkDuration={0.5}
-            loop
-            className="text-white"
-          />
         </h1>
       </AnimatedContent>
 
@@ -68,39 +50,18 @@ export default function HeroSection() {
         animateOpacity
         initialOpacity={0}
       >
-        <p className="text-white/50 text-base sm:text-lg md:text-xl max-w-xl mb-10 leading-relaxed">
-          Top-up diamonds, credits, and skins for every major title.
-          Fast. Safe. No BS.
+        <p className="text-white/50 text-base sm:text-lg md:text-xl max-w-xl mb-12 leading-relaxed">
+          Pilih store favoritmu dan top-up langsung dengan cepat & aman.
         </p>
       </AnimatedContent>
 
-      {/* Social proof */}
-      <AnimatedContent
-        distance={15}
-        direction="vertical"
-        reverse={true}
-        duration={0.5}
-        delay={0.7}
-        animateOpacity
-        initialOpacity={0}
-      >
-        <div className="mt-8 flex items-center gap-2 text-white/30 text-sm">
-          <span className="flex -space-x-1.5">
-            {["🟠", "🔴", "⚽"].map((e, i) => (
-              <span
-                key={i}
-                className="w-7 h-7 rounded-full bg-white/10 border border-white/10 flex items-center justify-center text-xs"
-              >
-                {e}
-              </span>
-            ))}
-          </span>
-          <span>
-            Trusted by{" "}
-            <strong className="text-white/60">50,000+</strong> gamers
-          </span>
-        </div>
-      </AnimatedContent>
+      {/* Store Cards Grid */}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20 mt-4">
+        {STORES.map((store, i) => (
+          <StoreCard key={store.id} store={store} delay={0.5 + i * 0.15} />
+        ))}
+      </div>
+
     </section>
   );
 }
