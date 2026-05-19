@@ -56,7 +56,7 @@ export default function HeroSection() {
       </AnimatedContent>
 
       {/* Store Cards Grid */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20 mt-4">
+      <div className="flex flex-row md:flex-col items-center justify-center gap-4 sm:gap-8 md:gap-20 mt-4">
         {STORES.map((store, i) => (
           <StoreCard key={store.id} store={store} delay={0.5 + i * 0.15} />
         ))}
