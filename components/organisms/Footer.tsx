@@ -18,16 +18,17 @@ export default function Footer() {
               src="/logo/logo.png"
               alt="Vexlo Logo"
               fill
+              sizes="28px"
               className="object-cover"
             />
           </div>
           <span className="text-white font-black tracking-widest">
-            VEX<span className="text-[#FF4D4D]">LO</span>
+            Money<span className="text-[#FF4D4D]">Heist</span>
           </span>
         </div>
 
         {/* Copyright */}
-        <p className="text-white/20 text-xs text-center order-last sm:order-none">
+        <p className="text-white/20 text-xs text-center order-last sm:order-0">
           © {new Date().getFullYear()} VEXLO. All rights reserved.
         </p>
 

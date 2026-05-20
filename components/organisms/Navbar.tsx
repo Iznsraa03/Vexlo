@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Gamepad2 } from "lucide-react";
+import Image from "next/image";
 import StaggeredMenu from "@/components/atoms/StaggeredMenu";
 
 const MENU_ITEMS = [
@@ -21,8 +21,16 @@ export default function Navbar() {
   return (
     <>
       {/* Static left side: Logo — fixed & always visible */}
-      <div className="fixed top-0 left-0 z-50 flex items-center gap-2 px-6 py-5 md:px-12">
-        <Gamepad2 className="w-6 h-6 text-[#FF4D4D]" />
+      <div className="fixed top-0 left-0 z-50 flex items-center gap-3 px-6 py-5 md:px-12">
+        <div className="relative w-8 h-8 shrink-0 rounded-full overflow-hidden border border-white/10">
+          <Image
+            src="/logo/logo.png"
+            alt="Vexlo Logo"
+            fill
+            sizes="32px"
+            className="object-cover"
+          />
+        </div>
         <span className="text-xl font-black tracking-widest text-white">
           Money<span className="text-[#FF4D4D]">Heist</span>
         </span>
