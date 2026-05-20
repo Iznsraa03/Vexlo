@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Berapa lama proses top-up selesai?",
+    "a": "Proses top-up selesai dalam waktu kurang dari 60 detik setelah pembayaran dikonfirmasi. Sistem kami bekerja otomatis 24 jam sehari, 7 hari seminggu."
+  },
+  {
+    "q": "Metode pembayaran apa saja yang diterima?",
+    "a": "Kami menerima transfer bank (BCA, Mandiri, BNI, BRI), e-wallet (DANA, OVO, GoPay, ShopeePay), QRIS, serta kartu kredit dan debit Visa/Mastercard."
+  },
+  {
+    "q": "Apakah data saya aman?",
+    "a": "Ya, keamanan adalah prioritas utama kami. Semua transaksi dilindungi enkripsi SSL 256-bit. Kami tidak pernah menyimpan data sensitif kartu pembayaran Anda."
+  },
+  {
+    "q": "Apa yang harus dilakukan jika top-up tidak masuk?",
+    "a": "Jangan panik. Hubungi admin kami langsung melalui tombol WhatsApp di halaman ini. Sertakan bukti pembayaran dan ID akun Anda. Tim kami siap membantu 24/7 dan akan menyelesaikan masalah dalam waktu singkat."
+  },
+  {
+    "q": "Apakah ada biaya tambahan atau biaya tersembunyi?",
+    "a": "Tidak ada. Harga yang tertera di store sudah final. Kami percaya pada transparansi penuh — tidak ada biaya layanan, biaya administrasi, atau biaya tersembunyi apapun."
+  }
+]

@@ -6,6 +6,8 @@ import StaggeredMenu from "@/components/atoms/StaggeredMenu";
 
 const MENU_ITEMS = [
   { label: "Home", ariaLabel: "Go to home page", link: "#home" },
+  { label: "About", ariaLabel: "About Vexlo", link: "#about" },
+  { label: "FAQ", ariaLabel: "Frequently Asked Questions", link: "#faq" },
   { label: "Contact", ariaLabel: "Get in touch", link: "#contact" },
 ];
 

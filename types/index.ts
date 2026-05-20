@@ -26,3 +26,13 @@ export interface Store {
   logo: string;
   link: string;
 }
+
+export interface AboutStat {
+  value: string;
+  label: string;
+}
+
+export interface FaqItem {
+  q: string;
+  a: string;
+}
