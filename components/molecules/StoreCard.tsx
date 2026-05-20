@@ -56,7 +56,7 @@ export default function StoreCard({ store, delay = 0 }: StoreCardProps) {
 
         {/* Visit CTA */}
         <span
-          className="text-[8px] sm:text-[10px] md:text-xs font-semibold tracking-widest uppercase px-2 py-0.5 sm:px-3 sm:py-1 md:px-4 md:py-1.5 lg:px-5 lg:py-2 rounded-full border border-[#FF4D4D]/30 text-[#FF4D4D] bg-[#FF4D4D]/10 opacity-0 group-hover:opacity-100 -mt-2 transition-all duration-300 translate-y-1 group-hover:translate-y-0"
+          className="text-[9px] sm:text-[10px] md:text-xs font-bold tracking-widest uppercase px-3 py-1 sm:px-3.5 sm:py-1.5 md:px-5 md:py-2 rounded-full border border-[#FF4D4D]/40 text-[#FF4D4D] bg-[#FF4D4D]/10 transition-all duration-300 -mt-2 shadow-[0_2px_8px_rgba(255,77,77,0.1)] group-hover:bg-[#FF4D4D]/25 group-hover:text-white group-hover:border-[#FF4D4D]/80 group-hover:scale-105 group-hover:shadow-[0_0_15px_rgba(255,77,77,0.4)]"
         >
           Kunjungi →
         </span>
